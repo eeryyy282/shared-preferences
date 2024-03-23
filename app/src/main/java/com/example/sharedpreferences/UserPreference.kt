@@ -28,7 +28,7 @@ class UserPreference(context: Context) {
         val model = UserModel()
         model.name = preferences.getString(NAME, "")
         model.email = preferences.getString(EMAIL, "")
-        model.age = preferences.getInt(EMAIL, 0)
+        model.age = preferences.getInt(AGE, 0)
         model.phoneNumber = preferences.getString(PHONE_NUMBER, "")
         model.isLove = preferences.getBoolean(LOVE_MU, false)
 

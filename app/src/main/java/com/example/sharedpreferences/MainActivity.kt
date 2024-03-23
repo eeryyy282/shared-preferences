@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.tvName.text =
             if (userModel.name.toString().isEmpty()) "Tidak Ada" else userModel.name
         binding.tvAge.text =
-            userModel.age.toString().ifEmpty { "Tidak Ada" }
+            userModel.age.toString().ifEmpty { "Tidak ada" }
         binding.tvIsLoveMu.text = if (userModel.isLove) "Ya" else "Tidak"
         binding.tvEmail.text =
             if (userModel.email.toString().isEmpty()) "Tidak Ada" else userModel.email
